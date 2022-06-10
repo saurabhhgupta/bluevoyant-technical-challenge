@@ -1,7 +1,7 @@
 CREATE DATABASE saurabh_bluevoyant;
 
-CREATE USER 'bluevoyant'@'localhost' IDENTIFIED BY 'saurabh-is-hired';
-CREATE USER 'bluevoyant'@'%' IDENTIFIED BY 'saurabh-is-hired';
+CREATE USER 'bluevoyant'@'localhost' IDENTIFIED BY 'saurabh_is_hired';
+CREATE USER 'bluevoyant'@'%' IDENTIFIED BY 'saurabh_is_hired';
 GRANT ALL PRIVILEGES ON saurabh_bluevoyant.* TO 'bluevoyant'@'localhost';
 GRANT ALL PRIVILEGES ON saurabh_bluevoyant.* TO 'bluevoyant'@'%';
 
